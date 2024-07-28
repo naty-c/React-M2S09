@@ -1,0 +1,57 @@
+.navbar {
+    background-color: #574f7d;
+    color: #e0f0ea;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navDash {
+    font-size: 1.5rem;
+    color: #e0f0ea;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.navUserArea {
+    display: flex;
+    align-items: center;
+}
+
+.navUser {
+    display: flex;
+    margin-right: 1rem;
+    align-items: center;
+    gap: 5px;
+}
+
+.navBtn {
+    background-color: #574f7d;
+    color: #e0f0ea;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navBtn:hover {
+    background-color: #95adbe;
+}
+
+.mainContainer {
+    padding: 2rem;
+    background-color: #f4f4f9;
+    min-height: calc(100vh - 64px); /* Subtracting navbar height */
+}

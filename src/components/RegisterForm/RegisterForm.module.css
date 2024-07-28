@@ -1,0 +1,105 @@
+.registerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.registerForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 88vh;
+    width: 100%;
+    padding: 1.5rem;
+    background-color: #e0f0ea;
+    color: #3c2a4d;
+    border-radius: 8px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-top: 10px;
+}
+
+.registerFormContent {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 10px 60px;
+    border-radius: 6px;
+}
+
+.registerFormContent h1 {
+    color: #574f7d;
+    margin-bottom: 1rem;
+}
+
+.registerGroup {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    margin: 3px auto;
+}
+
+.registerGroup label {
+    width: 30%;
+    text-align: left;
+    padding-right: 10px;
+    background-color: #e0f0ea;
+}
+  
+.registerInput {
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem;
+    outline: none;
+    border: 2px solid #95adbe;
+    border-radius: 6px;
+    width: 70%;
+    background-color: #95adbe;
+    color: #503a65;
+    &::placeholder {
+        color: #503a65;
+        font-style: italic;
+        text-align: left;
+    }
+}
+
+.registerInput:focus {
+    border-color: #503a65;
+    box-shadow: 0 0 5px 2px #503a65;
+}
+
+.error {
+    color: #503a65;
+    font-size: 0.8rem;
+    font-style: italic;
+    text-align: right;
+}
+  
+.registerButton {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: 0.2s ease;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #574f7d;
+    color: #e0f0ea;
+    margin: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.registerButton:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.registerForm p {
+    color: #574f7d;
+}
+
+.registerForm p:hover {
+    color: #503a65;
+}
+  
