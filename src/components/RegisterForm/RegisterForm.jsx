@@ -106,7 +106,7 @@ function RegisterForm() {
 
                         <button type="submit" className={styles.registerButton}>Register</button>
 
-                        <p>Already have an account? <Link to={-1}>Go to login</Link></p>
+                        <p>Already have an account? <Link to="/login">Go to login</Link></p>
                 </form>
             </div>
         </main>
